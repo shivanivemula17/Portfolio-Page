@@ -1,0 +1,77 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+
+}
+.portfolio{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.details{
+    background-color: darkslategrey;
+    opacity: 0.5;
+    width: 450px;
+    height: 400px;
+    padding: 40px;
+    color: white;
+}
+.img{
+    width: 400px;
+    height: 480px;
+}
+h2{
+    font-size: 35px;
+}
+.p1{
+    font-size: 22px;
+}
+.p2{
+    padding-top: 10px;
+    font-size: 18px;
+}
+button{
+    background-color:aqua;
+    color: black;
+    width: 130px;
+    height: 35px;
+    border-radius: 50px;
+}
+.icons{
+    padding-top: 30px;
+}
+.ic{
+    padding-right: 50px ;
+}
+
+@media(max-width:1500px){
+    .details{
+        width: 450px;
+        height: 500px;
+    }
+    .img{
+        width: 400px;
+        height: 580px;
+    }
+    .portfolio{
+        display: flex;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:800px){
+    .details{
+        position: relative;
+        z-index: -1;
+        margin-left: 100px;
+        margin-top: 80px;
+        padding-top: 100px;
+    }
+    .img{
+        position: relative;
+        z-index: 1;
+        left: -310px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+}

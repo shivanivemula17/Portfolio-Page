@@ -17,3 +17,5 @@ Replace the placeholder images with screenshots or thumbnails of your projects t
 Test the portfolio page thoroughly to ensure functionality, usability, and compatibility across different browsers and devices.
 Populate the portfolio page with your projects, including descriptions, screenshots, links, and any other relevant information.
 Share your portfolio page with potential clients, employers, or collaborators to showcase your skills and achievements effectively.
+
+<img src="portfolio_screenshot.jpg">
